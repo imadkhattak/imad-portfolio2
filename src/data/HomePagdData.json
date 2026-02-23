@@ -1,0 +1,276 @@
+{
+  "hero": {
+    "imgUrl": "/images/20250215_135953 (2).jpg",
+    "name": "imad khattak",
+    "heading": "Hey! I’m imad",
+    "typingText": ["I'm a AI Engineer", 1500, "I'm a Developer", 1500],
+    "description": "AI/ML Engineer with a background in Data Science. Experienced in building AI-powered solutions such as intelligent chatbots, data-driven decision systems. Skilled in programming, database management, and machine learning with a strong focus on practical applications of AI. Proficient in data analysis, automation, and integrating AI into real-time workflows. Certified in AI Engineering, Python Development, and Applied Data Science.  ",
+    "btnText": "Get in touch",
+    "btnUrl": "contactus"
+  },
+  "socialBtns": [
+    
+    {
+      "icon": "fa-brands:linkedin-in",
+      "iconBgClass": "linkedin",
+      "href": "www.linkedin.com/in/imad-ud-din-khattak"
+    },
+    {
+      "icon": "fa-brands:github",
+      "iconBgClass": "github",
+      "href": "https://github.com/imadkhattak"
+    },
+    {
+      "icon": "simple-icons:upwork",
+      "iconBgClass": "upwork",
+      "href": "https://www.upwork.com/freelancers/~01e17436594a5fc93e?mp_source=share"
+    },
+    {
+      "icon": "simple-icons:kaggle",
+      "iconBgClass": "kaggle",
+      "href": "https://www.kaggle.com/imadkhattak"
+    }
+  ],
+  "brands": [
+    {
+      "src": "/images/brand-1.svg",
+      "alt": "Logolpsum"
+    },
+    {
+      "src": "/images/brand-2.svg",
+      "alt": "Logolpsum"
+    },
+    {
+      "src": "/images/brand-1.svg",
+      "alt": "Logolpsum"
+    },
+    {
+      "src": "/images/brand-2.svg",
+      "alt": "Logolpsum"
+    },
+    {
+      "src": "/images/brand-1.svg",
+      "alt": "Logolpsum"
+    },
+    {
+      "src": "/images/brand-2.svg",
+      "alt": "Logolpsum"
+    },
+    {
+      "src": "/images/brand-1.svg",
+      "alt": "Logolpsum"
+    },
+    {
+      "src": "/images/brand-2.svg",
+      "alt": "Logolpsum"
+    }
+  ],
+  "about": {
+    "imgSrc": "/images/20250215_135953 (2).jpg",
+    "miniTitle": "About Us",
+    "title": "I AM AVAILABLE FOR <span>AI ML</span> PROJECTS",
+    "description": "I am a Data Science graduate with a strong interest in artificial intelligence and machine learning. I enjoy building practical software solutions, exploring new technologies, and continuously improving my skills through hands-on projects and real-world applications.",
+    "funfacts": [
+
+      {
+        "title": "Year Experience",
+        "number": 1
+      }
+    ],
+    "btnText": "Get in touch",
+    "btnUrl": "contactus"
+  },
+  "projects": {
+    "sectionHeading": {
+      "miniTitle": "My Work",
+      "title": "RECENT PROJECT"
+    },
+"allProjects": [
+  {
+    "thumbUrl": "project_images/Screenshot 2026-02-23 101056.png",
+    "title": "Voice-to-Voice Mall Assistant",
+    "subTitle": "AI Agent, Voice Bot",
+    "details": {
+      "title": "Voice-to-Voice Bot for Shopping Mall Information Retrieval",
+      "description": "Built a voice-based chatbot that retrieves shopping mall information through real-time SQL query generation. Integrated LangChain for LLM-powered reasoning, Faster-Whisper for speech-to-text, and Edge TTS for voice responses. Enabled natural, continuous conversation flow using speech recognition and dynamic SQL execution.",
+      "type": "AI Application",
+      "langages": "Python",
+      "platform": "Voice + Database System",
+      "country": "Pakistan",
+      "url": "https://www.youtube.com/watch?v=bJwAE4ip3-w"
+    }
+  },
+  {
+    "thumbUrl": "/images/popup-project-2.jpg",
+    "title": "SQL Q/A Answering System",
+    "subTitle": "LLMs, LangGraph, Databases",
+    "details": {
+      "title": "SQL-Based Question Answering System with LLMs",
+      "description": "Developed a natural language interface to structured data using LLMs such as LLaMA 3 and Mistral. Designed a multi-step SQL Agent using LangGraph capable of secure query generation and reasoning. Integrated the system with Flask and Streamlit for interactive web-based access.",
+      "type": "AI / NLP System",
+      "langages": "Python",
+      "platform": "Web Application",
+      "country": "Pakistan",
+      "url": ""
+    }
+  },
+  {
+    "thumbUrl": "/images/popup-project-3.jpg",
+    "title": "AI Job Application Assistant",
+    "subTitle": "RAG, Automation, LLMs",
+    "details": {
+      "title": "AI Job Application Assistant",
+      "description": "Developed an intelligent job search assistant connecting to platforms like LinkedIn, Glassdoor, and Indeed via APIs and Selenium automation. Implemented CV parsing using LLMs to extract skills and keywords for personalized job matching. Applied Retrieval-Augmented Generation (RAG) to improve job relevance and built a chatbot interface for resume uploads and curated job recommendations.",
+      "type": "AI Automation System",
+      "langages": "Python",
+      "platform": "Web + Automation",
+      "country": "Pakistan",
+      "url": ""
+    }
+      },
+      {
+        "thumbUrl": "/images/popup-project-4.jpg",
+        "title": "Mobile App Design",
+        "subTitle": "Web Design, App Design",
+        "details": {
+          "title": "Website Design for Marketing Agency Startup",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "type": "Website",
+          "langages": "PHP, HTML, CSS, JS",
+          "platform": "WordPress",
+          "country": "USA",
+          "url": "www.example.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-5.jpg",
+        "title": "Website Design",
+        "subTitle": "Web Design, App Design",
+        "details": {
+          "title": "Website Design for Marketing Agency Startup",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "type": "Website",
+          "langages": "PHP, HTML, CSS, JS",
+          "platform": "WordPress",
+          "country": "USA",
+          "url": "www.example.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-6.jpg",
+        "title": "Website Design",
+        "subTitle": "Web Design, App Design",
+        "details": {
+          "title": "Website Design for Marketing Agency Startup",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "type": "Website",
+          "langages": "PHP, HTML, CSS, JS",
+          "platform": "WordPress",
+          "country": "USA",
+          "url": "www.example.com"
+        }
+      }
+    ]
+  },
+  "service": {
+    "sectionHeading": {
+      "miniTitle": "SKILLS",
+      "title": "My <span>Skills</span> & Expertise"
+    },
+    "allService": [
+      {
+        "title": "Agentic AI",
+        "subTitle": "Developing autonomous, intelligent agents that can reason and perform complex tasks workflows.",
+        "icon": "fluent:bot-24-regular",
+        "ratings": 5
+      },
+      {
+        "title": "Machine Learning",
+        "subTitle": "Building robust Machine Learning models, pipelines, and data-driven predictive systems.",
+        "icon": "carbon:machine-learning-model",
+        "ratings": 5
+      },
+      {
+        "title": "Python",
+        "subTitle": "Expert in Python programming, backend logic, data manipulation, and automation scripting.",
+        "icon": "fa-brands:python",
+        "ratings": 5
+      },
+      {
+        "title": "Model Development",
+        "subTitle": "Training, evaluating, and fine-tuning advanced models for customized AI solutions.",
+        "icon": "eos-icons:machine-learning",
+        "ratings": 5
+      }
+    ]
+  },
+"experience": {
+  "sectionHeading": {
+    "miniTitle": "Experience",
+    "title": "My Work <span>Experience</span>"
+  },
+  "allExperience": [
+    {
+      "designation": "AI/ML Intern",
+      "company": "K2X Tech | Islamabad, PK",
+      "duration": "Sep 2025 - Present",
+      "jobType": "Internship",
+      "companyTitle": "About Role",
+      "companyDescription": "Working on AI-driven systems leveraging Large Language Models (LLMs), Ollama, and relational databases. Developed Python-based automation scripts and intelligent data workflows for production-level applications. Implemented and optimized LLM-based applications using Ollama for local inference. Collaborated with the AI team to enhance multi-agent and RAG-based system architectures.\n\nTechnologies: Python, Ollama, LangChain, MySQL, LLMs, Flask."
+    },
+    {
+      "designation": "AI/ML Intern",
+      "company": "Resolve, NSTP | Islamabad, PK",
+      "duration": "July 2025 - August 2025",
+      "jobType": "Internship",
+      "companyTitle": "About Role",
+      "companyDescription": "Built a SQL-based Question Answering System using LLMs (LLaMA 3, Mistral) to retrieve insights from structured databases. Designed two pipelines: a simple chain-based Q&A system and a multi-step SQL Agent leveraging LangChain. Integrated LangChain with MySQL for secure, multi-query reasoning workflows.\n\nTechnologies: Python, LangChain, LLaMA, Mistral, MySQL, Flask."
+    },
+    {
+      "designation": "AI/ML Intern",
+      "company": "Bave Technologies | Peshawar, KP",
+      "duration": "Sep 2024 - Oct 2024",
+      "jobType": "Internship",
+      "companyTitle": "About Role",
+      "companyDescription": "Built robust web scraping pipelines using Selenium, Requests, and BeautifulSoup to extract structured data from dynamic websites. Automated data collection workflows for consulting projects, improving efficiency and reducing manual effort. Cleaned, parsed, and stored extracted data into CSV formats for further analysis."
+    }
+  ]
+},
+  "testimonial": {
+    "sectionHeading": {
+      "miniTitle": "Testimonial",
+      "title": "Over <span>8,000+</span> <br /> PEOPLE TRUST ME"
+    },
+    "allTestimonial": [
+      {
+        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
+        "avatarImg": "/images/avatar-1.jpg",
+        "avatarName": "Pamela Anders",
+        "avatarCompany": "Company Name"
+      },
+      {
+        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
+        "avatarImg": "/images/avatar-2.jpg",
+        "avatarName": "Pamela Anders",
+        "avatarCompany": "Company Name"
+      },
+      {
+        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
+        "avatarImg": "/images/avatar-3.jpg",
+        "avatarName": "Pamela Anders",
+        "avatarCompany": "Company Name"
+      }
+    ]
+  },
+  "contact": {
+    "sectionHeading": {
+      "title": "Let’s Discuss Your Project",
+      "subTitle": "Always available for freelancing if the right project comes along, Feel free to contact me."
+    },
+    "contactImg": "/images/contact-us.png",
+    "contactInfo": [
+      { "title": "Write an e-mail", "email": "imad.works100@gmail.com" },
+      { "title": "write an e-mail", "tel": "+92-345-9198769" }
+    ]
+  }
+}
