@@ -1,6 +1,4 @@
-import Brands from "../components/Brands";
 import Projects from "../components/Projects";
-import Testimonial from "../components/Testimonial";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Service from "../components/Service";
@@ -12,12 +10,10 @@ export default function Home() {
   const {
     hero,
     socialBtns,
-    brands,
     about,
     projects,
     service,
     experience,
-    testimonial,
     contact,
   } = HomePagdData;
   return (

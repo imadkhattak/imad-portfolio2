@@ -1,7 +1,6 @@
 import { Icon } from '@iconify/react';
 import React, { useState } from 'react';
 import SectionHeading from './SectionHeading';
-import Slider from 'react-slick';
 import Modal from './Modal';
 
 export default function Projects({ data }) {
@@ -19,19 +18,6 @@ export default function Projects({ data }) {
 
     setModal(!modal);
     console.log(modalType);
-  };
-
-  var settings = {
-    dots: true,
-    arrows: false,
-    infinite: true,
-    autoplay: false,
-    autoplaySpeed: 4000,
-    speed: 1000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    variableWidth: true,
   };
 
   return (
