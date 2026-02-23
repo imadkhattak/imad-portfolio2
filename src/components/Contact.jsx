@@ -4,7 +4,7 @@ import ContactInfo from './ContactInfo';
 import ContactForm from './ContactForm';
 
 export default function Contact({ data, socialData }) {
-  const { sectionHeading, contactImg, contactInfo } = data;
+  const { sectionHeading, contactInfo } = data;
   return (
     <section id="contactus" className="section contactus-section">
       <div className="container">
