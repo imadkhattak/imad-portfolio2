@@ -57,15 +57,15 @@ export default function Experience({ data }) {
                   
                   <div className="ex-box rounded" style={{ background: 'rgba(255, 255, 255, 0.05)', border: '1px solid rgba(255, 255, 255, 0.1)', padding: '30px' }}>
                     <div className="d-flex align-items-center mb-3">
-                      <span className="badge" style={{ background: 'var(--px-white)', color: 'var(--px-black)', padding: '6px 12px', borderRadius: '30px', fontWeight: '700', marginRight: '15px' }}>
+                      <span className="badge" style={{ background: 'var(--px-theme)', color: 'var(--px-white)', padding: '6px 12px', borderRadius: '30px', fontWeight: '500', marginRight: '15px' }}>
                         {item.jobType}
                       </span>
-                      <span style={{ color: 'var(--px-text)', fontSize: '14px', fontWeight: '500' }}>• {item.duration}</span>
+                      <span style={{ color: 'var(--px-white)', fontSize: '14px', fontWeight: '500' }}>• {item.duration}</span>
                     </div>
                     
                     <h4 style={{ color: 'var(--px-white)', fontWeight: '600', marginBottom: '10px' }}>{item.designation}</h4>
                     
-                    <div className="d-flex mb-4" style={{ color: 'var(--px-text)', fontSize: '15px' }}>
+                    <div className="d-flex mb-4" style={{ color: 'var(--px-white)', fontSize: '15px' }}>
                       <span className="me-3"><i className="bi bi-building me-2"></i>{item.company.split('|')[0].trim()}</span>
                       <span><i className="bi bi-geo-alt me-2"></i>{item.company.split('|')[1] ? item.company.split('|')[1].trim() : ''}</span>
                     </div>
