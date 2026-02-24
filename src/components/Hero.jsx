@@ -5,7 +5,7 @@ import { Link as ScrollLink } from 'react-scroll';
 import SocialBtns from './SocialBtns';
 
 export default function Hero({ data, socialData }) {
-  const { imgUrl, name, heading, typingText, description, btnText, btnUrl } =
+  const { name, heading, typingText, description, btnText, btnUrl } =
     data;
   return (
     <section className="home-section" id="home" data-scroll-index={0}>
