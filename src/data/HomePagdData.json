@@ -239,7 +239,7 @@
     {
       "designation": "AI/ML Intern",
       "company": "K2X Tech | Peshawar, KP",
-      "duration": "Sep 2025 - Present",
+      "duration": "Oct 2025 - Present",
       "jobType": "Internship",
       "companyTitle": "About Role",
       "companyDescription": "Working on AI-driven systems leveraging Large Language Models (LLMs), Ollama, and relational databases. Developed Python-based automation scripts and intelligent data workflows for production-level applications. Implemented and optimized LLM-based applications using Ollama for local inference. Collaborated with the AI team to enhance multi-agent and RAG-based system architectures.\n\nTechnologies: Python, Ollama, LangChain, MySQL, LLMs, Flask."
@@ -248,7 +248,7 @@
       "designation": "AI/ML Intern",
       "company": "Resolve, NSTP | Islamabad, PK",
       "duration": "July 2025 - August 2025",
-      "jobType": "Internship",
+      "jobType": "Remote Internship",
       "companyTitle": "About Role",
       "companyDescription": "Built a SQL-based Question Answering System using LLMs (LLaMA 3, Mistral) to retrieve insights from structured databases. Designed two pipelines: a simple chain-based Q&A system and a multi-step SQL Agent leveraging LangChain. Integrated LangChain with MySQL for secure, multi-query reasoning workflows.\n\nTechnologies: Python, LangChain, LLaMA, Mistral, MySQL, Flask."
     },
