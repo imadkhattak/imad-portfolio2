@@ -14,7 +14,7 @@ export default function Education({ data }) {
         <div className="row">
           {allEducation?.map((item, index) => (
             <div
-              className="col-md-6 col-lg-4 m-15px-tb"
+              className="col-md-6 col-lg-4 mb-4"
               key={index}
               data-aos="fade-up"
               data-aos-duration="1200"
