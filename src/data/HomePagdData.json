@@ -80,6 +80,32 @@
     "btnText": "Get in touch",
     "btnUrl": "contactus"
   },
+  "education": {
+    "sectionHeading": {
+      "miniTitle": "Education",
+      "title": "My <span>Education</span> & Certifications"
+    },
+    "allEducation": [
+      {
+        "degree": "Bachelors of Data Science",
+        "institute": "Institute of Management Science Peshawar",
+        "duration": "Graduated",
+        "type": "Education"
+      },
+      {
+        "degree": "IBM AI Engineering Professional Certificate",
+        "institute": "Coursera",
+        "duration": "Certified",
+        "type": "Certification"
+      },
+      {
+        "degree": "Applied Data Science Lab",
+        "institute": "WorldQuant University",
+        "duration": "Certified",
+        "type": "Certification"
+      }
+    ]
+  },
   "projects": {
     "sectionHeading": {
       "miniTitle": "My Work",

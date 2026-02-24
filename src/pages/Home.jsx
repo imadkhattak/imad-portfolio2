@@ -5,12 +5,14 @@ import Service from "../components/Service";
 import HomePagdData from "../data/HomePagdData.json";
 import Experience from "../components/Experience";
 import Contact from "../components/Contact";
+import Education from "../components/Education";
 
 export default function Home() {
   const {
     hero,
     socialBtns,
     about,
+    education,
     projects,
     service,
     experience,
@@ -20,6 +22,7 @@ export default function Home() {
     <>
       <Hero data={hero} socialData={socialBtns} />
       <About data={about} />
+      <Education data={education} />
       <Projects data={projects} />
       <Service data={service} />
       <Experience data={experience} />
