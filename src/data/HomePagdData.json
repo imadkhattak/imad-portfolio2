@@ -78,7 +78,9 @@
       }
     ],
     "btnText": "Get in touch",
-    "btnUrl": "contactus"
+    "btnUrl": "contactus",
+    "cvText": "Download CV",
+    "cvUrl": "/CV/CV.pdf"
   },
   "education": {
     "sectionHeading": {

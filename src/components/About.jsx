@@ -4,7 +4,7 @@ import parser from 'html-react-parser';
 import { Link as ScrollLink } from 'react-scroll';
 
 export default function About({ data }) {
-  const { imgSrc, miniTitle, title, description, funfacts, btnText, btnUrl } =
+  const { imgSrc, miniTitle, title, description, funfacts, btnText, btnUrl, cvText, cvUrl } =
     data;
   return (
     <section className="about-section section" id="about">
@@ -66,7 +66,7 @@ export default function About({ data }) {
                   </div>
                 ))}
               </div>
-              <div className="btn-bar">
+              <div className="btn-bar d-flex flex-wrap gap-3">
                 <ScrollLink
                   to={btnUrl}
                   spy={true}
@@ -80,6 +80,14 @@ export default function About({ data }) {
                     <Icon icon="bi:arrow-right" />
                   </i>
                 </ScrollLink>
+                {cvUrl && (
+                  <a href={cvUrl} target="_blank" rel="noreferrer" className="px-btn px-btn-theme">
+                    <span>{cvText}</span>{' '}
+                    <i>
+                      <Icon icon="bi:download" />
+                    </i>
+                  </a>
+                )}
               </div>
             </div>
           </div>
