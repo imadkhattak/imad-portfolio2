@@ -11,7 +11,7 @@ export default function Hero({ data, socialData }) {
     <section className="home-section" id="home" data-scroll-index={0}>
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-6">
+          <div className="col-lg-12">
             <div className="hs-text-box">
               <h6 data-aos="fade-up" data-aos-duration="1200">
                 <span>{name}</span>
@@ -67,11 +67,6 @@ export default function Hero({ data, socialData }) {
                   variant="ps-sm-4 pt-4 pt-sm-0 d-flex justify-content-center justify-content-sm-start"
                 />
               </div>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="hs-banner">
-              <img src={imgUrl} title alt="Admin" />
             </div>
           </div>
         </div>
