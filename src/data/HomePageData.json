@@ -128,19 +128,19 @@
       "url": "https://www.youtube.com/watch?v=bJwAE4ip3-w"
     }
   },
-  {
-    "thumbUrl": "/images/popup-project-2.jpg",
-    "title": "SQL Q/A Answering System",
-    "subTitle": "LLMs, LangGraph, Databases",
-    "details": {
-      "title": "SQL-Based Question Answering System with LLMs",
-      "description": "Developed a natural language interface to structured data using LLMs such as LLaMA 3 and Mistral. Designed a multi-step SQL Agent using LangGraph capable of secure query generation and reasoning. Integrated the system with Flask and Streamlit for interactive web-based access.",
-      "type": "AI / NLP System",
-      "langages": "Python",
-      "platform": "Web Application",
-      "country": "Pakistan",
-      "url": ""
-    }
+{
+  "thumbUrl": "/images/CHAT-BOT.PNG",
+  "title": "AI Customer Support Chatbot",
+  "subTitle": "LLMs, LangChain, SQL, Pinecone",
+  "details": {
+    "title": "Intelligent AI Customer Support Chatbot",
+    "description": "Built a conversational AI chatbot capable of understanding natural language queries and retrieving accurate information from databases and knowledge bases using LangChain and LLMs like GPT-4o-mini. Designed multi-step agents with schema retrieval and SQL execution tools for real-time responses. Integrated with web applications for interactive customer support. Video demo available on YouTube.",
+    "type": "AI / NLP System",
+    "langages": "Python",
+    "platform": "Web Application",
+    "country": "Pakistan",
+    "url": "https://youtu.be/0qAW4L5VBE8"
+  }
   },
   {
     "thumbUrl": "/images/popup-project-3.jpg",
@@ -242,7 +242,7 @@
       "designation": "AI/ML Engineer",
       "company": "K2X Tech | Peshawar, KP",
       "duration": "Oct 2025 - Present",
-      "jobType": "Internship",
+      "jobType": "Full-time",
       "companyTitle": "About Role",
       "companyDescription": "Working on AI-driven systems leveraging Large Language Models (LLMs), Ollama, and relational databases. Developed Python-based automation scripts and intelligent data workflows for production-level applications. Implemented and optimized LLM-based applications using Ollama for local inference. Collaborated with the AI team to enhance multi-agent and RAG-based system architectures.\n\nTechnologies: Python, Ollama, LangChain, MySQL, LLMs, Flask."
     },

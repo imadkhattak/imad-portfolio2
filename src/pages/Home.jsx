@@ -2,7 +2,7 @@ import Projects from "../components/Projects";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Service from "../components/Service";
-import HomePagdData from "../data/HomePagdData.json";
+import HomePageData from "../data/HomePageData.json";
 import Experience from "../components/Experience";
 import Contact from "../components/Contact";
 import Education from "../components/Education";
@@ -17,7 +17,7 @@ export default function Home() {
     service,
     experience,
     contact,
-  } = HomePagdData;
+  } = HomePageData;
   return (
     <>
       <Hero data={hero} socialData={socialBtns} />
