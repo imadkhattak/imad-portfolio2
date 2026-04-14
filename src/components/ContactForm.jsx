@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 export default function ContactForm() {
   const [loading, setLoading] = useState(false);
+  const [result, setResult] = useState("");
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -21,27 +22,44 @@ export default function ContactForm() {
   const onSubmit = async event => {
     event.preventDefault();
     setLoading(true);
-    const formData = new FormData(event.target);
+    setResult("Sending...");
 
-    formData.append('access_key', '6d7bc3fc-6190-43c5-8298-89ac5ef7494f');
+    try {
+      const formDataObj = new FormData(event.target);
+      
+      // Use Access Key from .env or fallback to the provided one
+      const accessKey = process.env.REACT_APP_WEB3FORMS_ACCESS_KEY || "aa93c931-aee7-4751-9593-89ccaad32ff3";
+      formDataObj.append('access_key', accessKey);
 
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
+      const object = Object.fromEntries(formDataObj);
+      const json = JSON.stringify(object);
 
-    const res = await fetch('https://api.web3forms.com/submit', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Accept: 'application/json',
-      },
-      body: json,
-    }).then(res => res.json());
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: json,
+      });
 
-    if (res.success) {
-      setFormData({ name: '', email: '', subject: '', message: '' });
+      const resJson = await response.json();
+
+      if (resJson.success) {
+        setResult("Message sent successfully!");
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        console.error("Error", resJson);
+        setResult(resJson.message || "Something went wrong. Please try again.");
+      }
+    } catch (error) {
+      console.error("Network Error", error);
+      setResult("Network error. Please check your connection.");
+    } finally {
       setLoading(false);
     }
   };
+
   return (
     <form id="contact-form" onSubmit={onSubmit}>
       <div className="row gx-3 gy-4">
@@ -106,12 +124,19 @@ export default function ContactForm() {
             <button
               className={`px-btn w-100 ${loading ? 'disabled' : ''}`}
               type="submit"
+              disabled={loading}
             >
               {loading ? 'Sending...' : 'Send Message'}
             </button>
           </div>
+          {result && (
+            <div className={`mt-3 text-center ${result.includes('successfully') ? 'text-success' : 'text-danger'}`}>
+              {result}
+            </div>
+          )}
         </div>
       </div>
     </form>
   );
 }
+

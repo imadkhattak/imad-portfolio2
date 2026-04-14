@@ -328,6 +328,9 @@ a {
     img {
       transition: ease all 0.35s;
       transform: scale(1);
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
     }
     .gallery-link {
       position: absolute;
@@ -649,22 +652,21 @@ a {
       color: var(--px-white);
       box-shadow: none;
       padding: 0.575rem 0.75rem;
-      &::-webkit-input-placeholder {
-        color: rgba(255, 255, 255, 0.5);
+      transition: all 0.3s ease;
+
+      &:focus {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: var(--px-theme);
+        color: var(--px-white);
       }
-      &:-moz-placeholder {
-        color: rgba(255, 255, 255, 0.5);
-        opacity: 1;
-      }
-      &::-moz-placeholder {
-        color: rgba(255, 255, 255, 0.5);
-        opacity: 1;
-      }
-      &:-ms-input-placeholder {
-        color: rgba(255, 255, 255, 0.5);
-      }
-      &::-ms-input-placeholder {
-        color: rgba(255, 255, 255, 0.5);
+
+      &:-webkit-autofill,
+      &:-webkit-autofill:hover,
+      &:-webkit-autofill:focus,
+      &:-webkit-autofill:active {
+        -webkit-text-fill-color: var(--px-white) !important;
+        -webkit-box-shadow: 0 0 0px 1000px #041d34 inset !important;
+        transition: background-color 5000s ease-in-out 0s;
       }
 
       &::placeholder {

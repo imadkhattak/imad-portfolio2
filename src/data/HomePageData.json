@@ -3,7 +3,7 @@
     "imgUrl": "/images/WhatsApp Image 2026-02-23 at 2.26.44 PM.jpeg",
     "name": "imad khattak",
     "heading": "Hey! I’m imad",
-    "typingText": ["I'm a AI Engineer", 1500, "I'm a Developer", 1500],
+    "typingText": ["I'm an AI Engineer", 1500, "I'm a Developer", 1500],
     "description": "AI/ML Engineer with a background in Data Science. Experienced in building AI-powered solutions such as intelligent chatbots, data-driven decision systems. Skilled in programming, database management, and machine learning with a strong focus on practical applications of AI. Proficient in data analysis, automation, and integrating AI into real-time workflows. Certified in AI Engineering, Python Development, and Applied Data Science.  ",
     "btnText": "Get in touch",
     "btnUrl": "contactus"
@@ -115,7 +115,7 @@
     },
 "allProjects": [
   {
-    "thumbUrl": "project_images/Screenshot 2026-02-23 101056.png",
+    "thumbUrl": "/project_images/Screenshot 2026-02-23 101056.png",
     "title": "Voice-to-Voice Mall Assistant",
     "subTitle": "AI Agent, Voice Bot",
     "details": {
@@ -125,11 +125,11 @@
       "langages": "Python",
       "platform": "Voice + Database System",
       "country": "Pakistan",
-      "url": "https://www.youtube.com/watch?v=bJwAE4ip3-w"
+      "url": "https://www.youtube.com/watch?v=m17gsJV5NhA"
     }
   },
 {
-  "thumbUrl": "/images/Screenshot 2026-04-02 200814.png",
+  "thumbUrl": "/images/CHAT-BOT.png",
   "title": "AI Customer Support Chatbot",
   "subTitle": "LLMs, LangChain, SQL, Pinecone",
   "details": {
@@ -241,7 +241,7 @@
     {
       "designation": "AI/ML Engineer",
       "company": "K2X Tech | Peshawar, KP",
-      "duration": "Oct 2025 - Present",
+      "duration": "Sep 2025 - Present",
       "jobType": "Full-time",
       "companyTitle": "About Role",
       "companyDescription": "Working on AI-driven systems leveraging Large Language Models (LLMs), Ollama, and relational databases. Developed Python-based automation scripts and intelligent data workflows for production-level applications. Implemented and optimized LLM-based applications using Ollama for local inference. Collaborated with the AI team to enhance multi-agent and RAG-based system architectures.\n\nTechnologies: Python, Ollama, LangChain, MySQL, LLMs, Flask."
@@ -292,13 +292,13 @@
   },
   "contact": {
     "sectionHeading": {
-      "title": "Let’s Discuss Your Project",
+      "title": "Let’s Connect",
       "subTitle": "Always available for freelancing if the right project comes along, Feel free to contact me."
     },
     "contactImg": "/images/contact-us.png",
     "contactInfo": [
-      { "title": "Write an e-mail", "email": "imad.works100@gmail.com" },
-      { "title": "write an e-mail", "tel": "+92-345-9198769" }
+      { "title": "Email", "email": "imad.works100@gmail.com" },
+      { "title": "Phone", "tel": "+92-345-9198769" }
     ]
   }
 }
