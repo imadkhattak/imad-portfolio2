@@ -1,19 +1,18 @@
 {
   "hero": {
     "imgUrl": "/images/WhatsApp Image 2026-02-23 at 2.26.44 PM.jpeg",
-    "name": "imad khattak",
-    "heading": "Hey! I’m imad",
-    "typingText": ["I'm an AI Engineer", 1500, "I'm a Developer", 1500],
-    "description": "AI/ML Engineer with a background in Data Science. Experienced in building AI-powered solutions such as intelligent chatbots, data-driven decision systems. Skilled in programming, database management, and machine learning with a strong focus on practical applications of AI. Proficient in data analysis, automation, and integrating AI into real-time workflows. Certified in AI Engineering, Python Development, and Applied Data Science.  ",
+    "name": "imad ud din khattak",
+    "heading": "Hey! I’m Imad",
+    "typingText": ["I'm an AI Engineer", 1500, "I'm an AI/ML Developer", 1500, "I'm an Agentic AI Specialist", 1500],
+    "description": "AI/ML Engineer with 1.5 years of professional experience building and deploying machine learning, deep learning, and LLM-powered applications. Skilled in developing AI solutions using Python, LangChain, LangGraph, and the OpenAI Agents SDK, with expertise in RAG systems, agentic AI workflows, model development, and AI automation. Experienced in integrating AI/ML solutions with REST APIs, databases, and cloud infrastructure to build scalable, reliable, and production-ready applications.",
     "btnText": "Get in touch",
     "btnUrl": "contactus"
   },
   "socialBtns": [
-    
     {
       "icon": "fa-brands:linkedin-in",
       "iconBgClass": "linkedin",
-      "href": "www.linkedin.com/in/imad-ud-din-khattak"
+      "href": "https://www.linkedin.com/in/imad-ud-din-khattak"
     },
     {
       "icon": "fa-brands:github",
@@ -47,40 +46,23 @@
     {
       "src": "/images/brand-2.svg",
       "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-1.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-2.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-1.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-2.svg",
-      "alt": "Logolpsum"
     }
   ],
   "about": {
     "imgSrc": "/images/20250215_135953 (2).jpg",
     "miniTitle": "About Me",
-    "title": "I AM AVAILABLE FOR <span>AI ML</span> PROJECTS",
-    "description": "I am a Data Science graduate with a strong interest in artificial intelligence and machine learning. I enjoy building practical software solutions, exploring new technologies, and continuously improving my skills through hands-on projects and real-world applications.",
+    "title": "I AM AN <span>AI ENGINEER</span>",
+    "description": "AI/ML Engineer with 1.5 years of professional experience building and deploying machine learning, deep learning, and LLM-powered applications. Experienced in integrating AI/ML solutions with REST APIs, databases, and cloud infrastructure to build scalable, reliable, and production-ready applications.",
     "funfacts": [
-
       {
-        "title": "Year Experience",
-        "number": 1
+        "title": "Years Experience",
+        "number": 1.5
       }
     ],
     "btnText": "Get in touch",
     "btnUrl": "contactus",
     "cvText": "Download CV",
-    "cvUrl": "/CV/CV.pdf"
+    "cvUrl": "/CV/Imad_Resume.pdf"
   },
   "education": {
     "sectionHeading": {
@@ -89,21 +71,27 @@
     },
     "allEducation": [
       {
-        "degree": "Bachelors of Data Science",
-        "institute": "Institute of Management Science Peshawar",
-        "duration": "Graduated",
+        "degree": "Bachelor of Data Science (CGPA: 3.10)",
+        "institute": "Institute of Management Sciences, Peshawar, KP",
+        "duration": "Sep 2021 – Jun 2025",
         "type": "Education"
       },
       {
-        "degree": "IBM AI Engineering Professional Certificate",
+        "degree": "IBM AI Engineering",
         "institute": "Coursera",
-        "duration": "Certified",
+        "duration": "2024 – 2025",
         "type": "Certification"
       },
       {
         "degree": "Applied Data Science Lab",
         "institute": "WorldQuant University",
-        "duration": "Certified",
+        "duration": "2023 – 2024",
+        "type": "Certification"
+      },
+      {
+        "degree": "The Complete Python Developer",
+        "institute": "Udemy",
+        "duration": "2022 – 2023",
         "type": "Certification"
       }
     ]
@@ -111,91 +99,49 @@
   "projects": {
     "sectionHeading": {
       "miniTitle": "My Work",
-      "title": "RECENT PROJECT"
+      "title": "FEATURED PROJECTS"
     },
-"allProjects": [
-  {
-    "thumbUrl": "/project_images/Screenshot 2026-02-23 101056.png",
-    "title": "Voice-to-Voice Mall Assistant",
-    "subTitle": "AI Agent, Voice Bot",
-    "details": {
-      "title": "Voice-to-Voice Bot for Shopping Mall Information Retrieval",
-      "description": "Built a voice-based chatbot that retrieves shopping mall information through real-time SQL query generation. Integrated LangChain for LLM-powered reasoning, Faster-Whisper for speech-to-text, and Edge TTS for voice responses. Enabled natural, continuous conversation flow using speech recognition and dynamic SQL execution.",
-      "type": "AI Application",
-      "langages": "Python",
-      "platform": "Voice + Database System",
-      "country": "Pakistan",
-      "url": "https://youtu.be/mULpjMah4hE"
-    }
-  },
-{
-  "thumbUrl": "/images/CHAT-BOT.png",
-  "title": "AI Customer Support Chatbot",
-  "subTitle": "LLMs, LangChain, SQL, Pinecone",
-  "details": {
-    "title": "Intelligent AI Customer Support Chatbot",
-    "description": "Built a conversational AI chatbot capable of understanding natural language queries and retrieving accurate information from databases and knowledge bases using LangChain and LLMs like GPT-4o-mini. Designed multi-step agents with schema retrieval and SQL execution tools for real-time responses. Integrated with web applications for interactive customer support. Video demo available on YouTube.",
-    "type": "AI / NLP System",
-    "langages": "Python",
-    "platform": "Web Application",
-    "country": "Pakistan",
-    "url": "https://youtu.be/0qAW4L5VBE8"
-  }
-  },
-  {
-    "thumbUrl": "/images/popup-project-3.jpg",
-    "title": "AI Job Application Assistant",
-    "subTitle": "RAG, Automation, LLMs",
-    "details": {
-      "title": "AI Job Application Assistant",
-      "description": "Developed an intelligent job search assistant connecting to platforms like LinkedIn, Glassdoor, and Indeed via APIs and Selenium automation. Implemented CV parsing using LLMs to extract skills and keywords for personalized job matching. Applied Retrieval-Augmented Generation (RAG) to improve job relevance and built a chatbot interface for resume uploads and curated job recommendations.",
-      "type": "AI Automation System",
-      "langages": "Python",
-      "platform": "Web + Automation",
-      "country": "Pakistan",
-      "url": ""
-    }
-      },
+    "allProjects": [
       {
-        "thumbUrl": "/images/popup-project-4.jpg",
-        "title": "None",
-        "subTitle": "None",
+        "thumbUrl": "/project_images/Screenshot 2026-02-23 101056.png",
+        "title": "AI Call Agent for Mall Info Retrieval",
+        "subTitle": "OpenAI, LangChain, FastAPI, Voice AI, SQL",
         "details": {
-          "title": "None",
-          "description": "None",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "AI Call Agent for Shopping Mall Information Retrieval (Final Year Project)",
+          "description": "Built a voice-based AI agent for shopping mall inquiries using OpenAI, LangChain, and Python. Implemented agentic workflows to interpret natural-language queries and dynamically query SQL databases. Integrated OpenAI Whisper, TTS, and VAD for real-time, hands-free voice conversations. Connected the agent to a SQL database and built the backend with FastAPI and modular API integrations.",
+          "type": "Voice AI Agent",
+          "langages": "Python, FastAPI, SQL",
+          "platform": "Voice + Database System",
+          "country": "Pakistan",
+          "url": "https://youtu.be/mULpjMah4hE"
         }
       },
       {
-        "thumbUrl": "/images/popup-project-5.jpg",
-        "title": "None",
-        "subTitle": "None",
+        "thumbUrl": "/images/CHAT-BOT.png",
+        "title": "Face Detection & Automated Email Responder",
+        "subTitle": "ResNet18, PyTorch, MTCNN, OpenCV",
         "details": {
-          "title": "None",
-          "description": "None",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "Face Detection & Automated Email Responder",
+          "description": "Built a real-time face recognition system using ResNet18 and PyTorch. Used MTCNN and OpenCV for face detection, cropping, and real-time face tracking. Trained the model with data augmentation to improve recognition accuracy. Automated email notifications based on the detected person's identity.",
+          "type": "Computer Vision & Automation",
+          "langages": "Python, PyTorch, OpenCV",
+          "platform": "Real-Time System",
+          "country": "Pakistan",
+          "url": "https://github.com/imadkhattak"
         }
       },
       {
-        "thumbUrl": "/images/popup-project-6.jpg",
-        "title": "None",
-        "subTitle": "None",
+        "thumbUrl": "/images/naurki_image.png",
+        "title": "AI Job Application & Job Aggregation System",
+        "subTitle": "Python Pipelines, Web Scraping, LLMs, Automation",
         "details": {
-          "title": "None",
-          "description": "None",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "AI Job Application & Job Aggregation System",
+          "description": "Built an AI-powered job aggregation platform collecting listings from LinkedIn, Glassdoor, Indeed, and other sources. Automated job extraction, cleaning, standardization, and deduplication using Python-based data pipelines. Processed job titles, companies, locations, skills, and requirements for efficient search and matching.",
+          "type": "AI Automation & Aggregation",
+          "langages": "Python, Selenium, BeautifulSoup",
+          "platform": "Web + Automation Pipeline",
+          "country": "Pakistan",
+          "url": "https://naukripakistan.xyz/"
         }
       }
     ]
@@ -208,62 +154,62 @@
     "allService": [
       {
         "title": "Agentic AI",
-        "subTitle": "Developing autonomous, intelligent agents that can reason and perform complex tasks workflows.",
+        "subTitle": "OpenAI Agents SDK, LangChain, LangGraph, CrewAI, n8n, Prompt Engineering",
         "icon": "fluent:bot-24-regular",
         "ratings": 5
       },
       {
-        "title": "Machine Learning",
-        "subTitle": "Building robust Machine Learning models, pipelines, and data-driven predictive systems.",
+        "title": "AI/ML & Deep Learning",
+        "subTitle": "GPT-4, Hugging Face, Ollama, PyTorch, Scikit-learn, Faster-Whisper, ResNet18",
         "icon": "carbon:machine-learning-model",
         "ratings": 5
       },
       {
-        "title": "Python",
-        "subTitle": "Expert in Python programming, backend logic, data manipulation, and automation scripting.",
+        "title": "Programming & Web Automation",
+        "subTitle": "Python, SQL, Pandas, NumPy, FastAPI, Flask, Selenium, Playwright, BeautifulSoup, REST APIs",
         "icon": "fa-brands:python",
         "ratings": 5
       },
       {
-        "title": "Model Development",
-        "subTitle": "Training, evaluating, and fine-tuning advanced models for customized AI solutions.",
+        "title": "Databases & DevOps Tools",
+        "subTitle": "MySQL, PostgreSQL, Docker, Git, AWS (EC2, CodeCommit), Cursor, Antigravity, VS Code",
         "icon": "eos-icons:machine-learning",
         "ratings": 5
       }
     ]
   },
-"experience": {
-  "sectionHeading": {
-    "miniTitle": "Experience",
-    "title": "My Work <span>Experience</span>"
+  "experience": {
+    "sectionHeading": {
+      "miniTitle": "Experience",
+      "title": "My Work <span>Experience</span>"
+    },
+    "allExperience": [
+      {
+        "designation": "AI/ML Engineer",
+        "company": "K2X Tech | Peshawar, PK",
+        "duration": "Sep 2025 - Present",
+        "jobType": "Full-time",
+        "companyTitle": "About Role",
+        "companyDescription": "Built ETL pipelines integrating REST APIs, transforming data, and storing it in PostgreSQL.\nDeveloped LLM-powered document autofill and information extraction systems using FastAPI, Mistral.\nBuilt an audio advertisement detection system using audio fingerprinting and timestamp generation.\nDeveloped Python backend services and AI automation workflows to reduce manual effort.\nManaged PostgreSQL databases and optimized queries and schemas.\nDeployed applications with Docker and AWS EC2 using Git and AWS CodeCommit.\n\nTechnologies: Python, FastAPI, PostgreSQL, LangChain, Ollama, Docker, AWS, Git, REST APIs"
+      },
+      {
+        "designation": "AI/ML Intern",
+        "company": "Resolve (NSTP) | Islamabad, PK",
+        "duration": "Jul 2025 - Aug 2025",
+        "jobType": "Internship",
+        "companyTitle": "About Role",
+        "companyDescription": "Built SQL-based Question Answering systems using LLMs for structured databases.\nDesigned LangChain-based multi-step SQL agents to automate data retrieval and query generation.\n\nTechnologies: Python, LangChain, MySQL, Flask"
+      },
+      {
+        "designation": "AI/ML Intern",
+        "company": "Bave Technologies | Peshawar, KP",
+        "duration": "Sep 2024 - Oct 2024",
+        "jobType": "Internship",
+        "companyTitle": "About Role",
+        "companyDescription": "Built robust web scraping pipelines using Selenium, Requests, and BeautifulSoup.\nAutomated data collection workflows and stored cleaned data into CSV files.\n\nTechnologies: Python, Selenium, Requests, BeautifulSoup"
+      }
+    ]
   },
-  "allExperience": [
-    {
-      "designation": "AI/ML Engineer",
-      "company": "K2X Tech | Peshawar, KP",
-      "duration": "Sep 2025 - Present",
-      "jobType": "Full-time",
-      "companyTitle": "About Role",
-      "companyDescription": "Working on AI-driven systems leveraging Large Language Models (LLMs), Ollama, and relational databases. Developed Python-based automation scripts and intelligent data workflows for production-level applications. Implemented and optimized LLM-based applications using Ollama for local inference. Collaborated with the AI team to enhance multi-agent and RAG-based system architectures.\n\nTechnologies: Python, Ollama, LangChain, MySQL, LLMs, Flask."
-    },
-    {
-      "designation": "AI/ML Intern",
-      "company": "Resolve, NSTP | Islamabad, PK",
-      "duration": "July 2025 - August 2025",
-      "jobType": "Remote Internship",
-      "companyTitle": "About Role",
-      "companyDescription": "Built a SQL-based Question Answering System using LLMs (LLaMA 3, Mistral) to retrieve insights from structured databases. Designed two pipelines: a simple chain-based Q&A system and a multi-step SQL Agent leveraging LangChain. Integrated LangChain with MySQL for secure, multi-query reasoning workflows.\n\nTechnologies: Python, LangChain, LLaMA, Mistral, MySQL, Flask."
-    },
-    {
-      "designation": "AI/ML Intern",
-      "company": "Bave Technologies | Peshawar, KP",
-      "duration": "Sep 2024 - Oct 2024",
-      "jobType": "Internship",
-      "companyTitle": "About Role",
-      "companyDescription": "Built robust web scraping pipelines using Selenium, Requests, and BeautifulSoup to extract structured data from dynamic websites. Automated data collection workflows for consulting projects, improving efficiency and reducing manual effort. Cleaned, parsed, and stored extracted data into CSV formats for further analysis."
-    }
-  ]
-},
   "testimonial": {
     "sectionHeading": {
       "miniTitle": "Testimonial",
@@ -271,29 +217,17 @@
     },
     "allTestimonial": [
       {
-        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
+        "reviewText": "Imad is an exceptional AI engineer who delivered robust LLM pipelines and automation solutions with outstanding speed and precision.",
         "avatarImg": "/images/avatar-1.jpg",
-        "avatarName": "Pamela Anders",
-        "avatarCompany": "Company Name"
-      },
-      {
-        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
-        "avatarImg": "/images/avatar-2.jpg",
-        "avatarName": "Pamela Anders",
-        "avatarCompany": "Company Name"
-      },
-      {
-        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
-        "avatarImg": "/images/avatar-3.jpg",
-        "avatarName": "Pamela Anders",
-        "avatarCompany": "Company Name"
+        "avatarName": "K2X Tech Team",
+        "avatarCompany": "K2X Tech"
       }
     ]
   },
   "contact": {
     "sectionHeading": {
       "title": "Let’s Connect",
-      "subTitle": "Always available for freelancing if the right project comes along, Feel free to contact me."
+      "subTitle": "Always available for AI/ML engineering roles, agentic AI workflows, and consulting projects."
     },
     "contactImg": "/images/contact-us.png",
     "contactInfo": [
