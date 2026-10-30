@@ -11,9 +11,9 @@ export default function Service({ data }) {
           miniTitle={sectionHeading.miniTitle}
           title={sectionHeading.title}
         />
-        <div className="row gy-5">
+        <div className="row gy-4">
           {allService?.map((item, index) => (
-            <div className="col-sm-6 col-lg-3" key={index}>
+            <div className="col-sm-6 col-lg-4" key={index}>
               <div
                 className="services-box-icon"
                 style={{

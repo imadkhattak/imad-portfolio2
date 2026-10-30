@@ -5,7 +5,7 @@ export default function Experience({ data }) {
   const { sectionHeading, allExperience } = data;
 
   return (
-    <section className="section gray-bg">
+    <section className="section gray-bg" id="experience">
       <div className="container">
         <SectionHeading
           miniTitle={sectionHeading.miniTitle}
@@ -71,9 +71,19 @@ export default function Experience({ data }) {
                     </div>
                     
                     <ul style={{ color: 'var(--px-white)', opacity: '0.8', lineHeight: '1.7', paddingLeft: '20px', margin: '0' }}>
-                      {bulletPoints.map((point, i) => (
-                        <li key={i} style={{ marginBottom: '8px' }}>{point}</li>
-                      ))}
+                      {bulletPoints.map((point, i) => {
+                        if (point.startsWith('Technologies:')) {
+                          return (
+                            <li key={i} style={{ marginBottom: '8px', listStyleType: 'none', marginLeft: '-20px', marginTop: '14px' }}>
+                              <strong style={{ color: 'var(--px-theme)', fontWeight: '600' }}>Technologies:</strong>{' '}
+                              <span style={{ color: '#fff', fontWeight: '500' }}>
+                                {point.replace('Technologies:', '').trim()}
+                              </span>
+                            </li>
+                          );
+                        }
+                        return <li key={i} style={{ marginBottom: '8px' }}>{point}</li>;
+                      })}
                     </ul>
                   </div>
                 </div>

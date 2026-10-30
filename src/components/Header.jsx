@@ -61,6 +61,18 @@ export default function Header() {
           </li>
           <li>
             <ScrollLink
+              to="education"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+              onClick={() => setMobileToggle(false)}
+            >
+              Education
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
               to="project"
               spy={true}
               smooth={true}
@@ -81,6 +93,18 @@ export default function Header() {
               onClick={() => setMobileToggle(false)}
             >
               Skills
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
+              to="experience"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+              onClick={() => setMobileToggle(false)}
+            >
+              Experience
             </ScrollLink>
           </li>
           <li>

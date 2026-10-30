@@ -17,9 +17,11 @@ export default function ContactInfo({ contactInfoData }) {
             <span className="me-2 text-theme" style={{ fontSize: '20px', display: 'flex' }}>
               {item.email && <Icon icon="material-symbols:mail-outline" />}
               {item.tel && <Icon icon="material-symbols:call-outline" />}
+              {item.location && <Icon icon="material-symbols:location-on-outline" />}
             </span>
             {item.email && <a href={`mailto:${item.email}`}>{item.email}</a>}
             {item.tel && <a href={`tel:${item.tel}`}>{item.tel}</a>}
+            {item.location && <span style={{ color: 'var(--px-white)' }}>{item.location}</span>}
           </div>
         </div>
       ))}

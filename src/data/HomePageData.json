@@ -3,8 +3,17 @@
     "imgUrl": "/images/WhatsApp Image 2026-02-23 at 2.26.44 PM.jpeg",
     "name": "imad ud din khattak",
     "heading": "Hey! I’m Imad",
-    "typingText": ["I'm an AI Engineer", 1500, "I'm an AI/ML Developer", 1500, "I'm an Agentic AI Specialist", 1500],
-    "description": "AI/ML Engineer with 1.5 years of professional experience building and deploying machine learning, deep learning, and LLM-powered applications. Skilled in developing AI solutions using Python, LangChain, LangGraph, and the OpenAI Agents SDK, with expertise in RAG systems, agentic AI workflows, model development, and AI automation. Experienced in integrating AI/ML solutions with REST APIs, databases, and cloud infrastructure to build scalable, reliable, and production-ready applications.",
+    "typingText": [
+      "I'm an AI Engineer",
+      1500,
+      "I build LLMs & Agentic AI",
+      1500,
+      "I build RAG & ML Systems",
+      1500,
+      "I'm an AI Instructor",
+      1500
+    ],
+    "description": "AI/ML Engineer specializing in building and deploying LLM-powered systems, RAG pipelines, SQL agents, and machine learning models. Experienced in PostgreSQL database design, Docker, and AWS deployment (EC2, CodeCommit). Also an AI Instructor delivering the Huawei HCCDA-AI curriculum. Skilled in Python, LangChain, LangGraph, FastAPI, and PyTorch.",
     "btnText": "Get in touch",
     "btnUrl": "contactus"
   },
@@ -52,29 +61,49 @@
     "imgSrc": "/images/20250215_135953 (2).jpg",
     "miniTitle": "About Me",
     "title": "I AM AN <span>AI ENGINEER</span>",
-    "description": "AI/ML Engineer with 1.5 years of professional experience building and deploying machine learning, deep learning, and LLM-powered applications. Experienced in integrating AI/ML solutions with REST APIs, databases, and cloud infrastructure to build scalable, reliable, and production-ready applications.",
+    "description": "AI/ML Engineer specializing in building and deploying LLM-powered systems, RAG pipelines, SQL agents, and machine learning models. Experienced in PostgreSQL database design, Docker, and AWS deployment (EC2, CodeCommit). Also an AI Instructor delivering the Huawei HCCDA-AI curriculum. Skilled in Python, LangChain, LangGraph, FastAPI, and PyTorch.",
     "funfacts": [
       {
         "title": "Years Experience",
-        "number": 1.5
+        "number": 2
+      },
+      {
+        "title": "Projects Delivered",
+        "number": 10
+      },
+      {
+        "title": "Certifications",
+        "number": 4
       }
     ],
     "btnText": "Get in touch",
     "btnUrl": "contactus",
     "cvText": "Download CV",
-    "cvUrl": "/CV/Imad_Resume.pdf"
+    "cvUrl": "/CV/ImadCV.pdf"
   },
   "education": {
     "sectionHeading": {
-      "miniTitle": "Education",
+      "miniTitle": "Education & Certifications",
       "title": "My <span>Education</span> & Certifications"
     },
     "allEducation": [
       {
-        "degree": "Bachelor of Data Science (CGPA: 3.10)",
-        "institute": "Institute of Management Sciences, Peshawar, KP",
-        "duration": "Sep 2021 – Jun 2025",
+        "degree": "Bachelor of Data Science (GPA: 3.01)",
+        "institute": "Institute of Management Sciences, Peshawar",
+        "duration": "Sep 2021 – Jul 2025",
         "type": "Education"
+      },
+      {
+        "degree": "Generative AI Engineering with LLMs Specialization",
+        "institute": "DeepLearning.AI / Coursera",
+        "duration": "2025 – 2026",
+        "type": "Certification"
+      },
+      {
+        "degree": "AI Engineer Agentic Track: Complete Agent & MCP Course",
+        "institute": "Industry Certification",
+        "duration": "2025 – 2026",
+        "type": "Certification"
       },
       {
         "degree": "IBM AI Engineering",
@@ -86,12 +115,6 @@
         "degree": "Applied Data Science Lab",
         "institute": "WorldQuant University",
         "duration": "2023 – 2024",
-        "type": "Certification"
-      },
-      {
-        "degree": "The Complete Python Developer",
-        "institute": "Udemy",
-        "duration": "2022 – 2023",
         "type": "Certification"
       }
     ]
@@ -105,12 +128,12 @@
       {
         "thumbUrl": "/project_images/Screenshot 2026-02-23 101056.png",
         "title": "AI Call Agent for Mall Info Retrieval",
-        "subTitle": "OpenAI, LangChain, FastAPI, Voice AI, SQL",
+        "subTitle": "OpenAI | LangChain | Whisper | FastAPI | SQL",
         "details": {
           "title": "AI Call Agent for Shopping Mall Information Retrieval (Final Year Project)",
-          "description": "Built a voice-based AI agent for shopping mall inquiries using OpenAI, LangChain, and Python. Implemented agentic workflows to interpret natural-language queries and dynamically query SQL databases. Integrated OpenAI Whisper, TTS, and VAD for real-time, hands-free voice conversations. Connected the agent to a SQL database and built the backend with FastAPI and modular API integrations.",
+          "description": "Built a voice-based AI agent that interprets natural-language queries and dynamically queries a SQL database. Integrated OpenAI Whisper, TTS, and VAD for real-time, hands-free voice conversations; backend built with FastAPI and modular API integrations.",
           "type": "Voice AI Agent",
-          "langages": "Python, FastAPI, SQL",
+          "langages": "OpenAI, LangChain, Whisper, FastAPI, SQL",
           "platform": "Voice + Database System",
           "country": "Pakistan",
           "url": "https://youtu.be/mULpjMah4hE"
@@ -119,12 +142,12 @@
       {
         "thumbUrl": "/images/CHAT-BOT.png",
         "title": "Face Detection & Automated Email Responder",
-        "subTitle": "ResNet18, PyTorch, MTCNN, OpenCV",
+        "subTitle": "PyTorch | ResNet18 | MTCNN | OpenCV",
         "details": {
           "title": "Face Detection & Automated Email Responder",
-          "description": "Built a real-time face recognition system using ResNet18 and PyTorch. Used MTCNN and OpenCV for face detection, cropping, and real-time face tracking. Trained the model with data augmentation to improve recognition accuracy. Automated email notifications based on the detected person's identity.",
+          "description": "Trained a ResNet18 face recognition model in PyTorch with data augmentation to improve accuracy. Used MTCNN and OpenCV for real-time detection and tracking, and automated email notifications based on detected identity.",
           "type": "Computer Vision & Automation",
-          "langages": "Python, PyTorch, OpenCV",
+          "langages": "PyTorch, ResNet18, MTCNN, OpenCV",
           "platform": "Real-Time System",
           "country": "Pakistan",
           "url": "https://github.com/imadkhattak"
@@ -132,13 +155,13 @@
       },
       {
         "thumbUrl": "/images/naurki_image.png",
-        "title": "AI Job Application & Job Aggregation System",
-        "subTitle": "Python Pipelines, Web Scraping, LLMs, Automation",
+        "title": "AI Job Aggregation System",
+        "subTitle": "Python | Data Pipelines | Web Scraping",
         "details": {
-          "title": "AI Job Application & Job Aggregation System",
-          "description": "Built an AI-powered job aggregation platform collecting listings from LinkedIn, Glassdoor, Indeed, and other sources. Automated job extraction, cleaning, standardization, and deduplication using Python-based data pipelines. Processed job titles, companies, locations, skills, and requirements for efficient search and matching.",
-          "type": "AI Automation & Aggregation",
-          "langages": "Python, Selenium, BeautifulSoup",
+          "title": "AI Job Aggregation System",
+          "description": "Built a platform aggregating listings from LinkedIn, Glassdoor, Indeed, and other sources, with automated extraction, cleaning, standardisation, and deduplication using Python data pipelines.",
+          "type": "Data Pipeline & Aggregation",
+          "langages": "Python, Selenium, BeautifulSoup, REST APIs",
           "platform": "Web + Automation Pipeline",
           "country": "Pakistan",
           "url": "https://naukripakistan.xyz/"
@@ -148,31 +171,43 @@
   },
   "service": {
     "sectionHeading": {
-      "miniTitle": "SKILLS",
-      "title": "My <span>Skills</span> & Expertise"
+      "miniTitle": "SKILLS & EXPERTISE",
+      "title": "My <span>Technical Skills</span>"
     },
     "allService": [
       {
-        "title": "Agentic AI",
-        "subTitle": "OpenAI Agents SDK, LangChain, LangGraph, CrewAI, n8n, Prompt Engineering",
-        "icon": "fluent:bot-24-regular",
-        "ratings": 5
-      },
-      {
-        "title": "AI/ML & Deep Learning",
-        "subTitle": "GPT-4, Hugging Face, Ollama, PyTorch, Scikit-learn, Faster-Whisper, ResNet18",
+        "title": "Generative AI",
+        "subTitle": "LLM APIs, RAG, Vector Databases (FAISS, Pinecone), Hugging Face, Diffusion Models, Prompt Engineering",
         "icon": "carbon:machine-learning-model",
         "ratings": 5
       },
       {
-        "title": "Programming & Web Automation",
-        "subTitle": "Python, SQL, Pandas, NumPy, FastAPI, Flask, Selenium, Playwright, BeautifulSoup, REST APIs",
+        "title": "Agentic AI",
+        "subTitle": "LangChain, LangGraph, OpenAI Agents SDK, CrewAI, n8n, Make",
+        "icon": "fluent:bot-24-regular",
+        "ratings": 5
+      },
+      {
+        "title": "ML & Deep Learning",
+        "subTitle": "PyTorch, Scikit-learn, Model Training & Evaluation, Ollama, Whisper",
+        "icon": "carbon:chart-network",
+        "ratings": 5
+      },
+      {
+        "title": "Programming & Data",
+        "subTitle": "Python, SQL, Pandas, NumPy",
         "icon": "fa-brands:python",
         "ratings": 5
       },
       {
-        "title": "Databases & DevOps Tools",
-        "subTitle": "MySQL, PostgreSQL, Docker, Git, AWS (EC2, CodeCommit), Cursor, Antigravity, VS Code",
+        "title": "Backend & Automation",
+        "subTitle": "FastAPI, Flask, REST APIs, Selenium, Playwright, BeautifulSoup",
+        "icon": "carbon:api",
+        "ratings": 5
+      },
+      {
+        "title": "Databases & Cloud",
+        "subTitle": "PostgreSQL, MySQL, Docker, AWS (EC2, CodeCommit), Git",
         "icon": "eos-icons:machine-learning",
         "ratings": 5
       }
@@ -185,28 +220,52 @@
     },
     "allExperience": [
       {
-        "designation": "AI/ML Engineer",
-        "company": "K2X Tech | Peshawar, PK",
-        "duration": "Sep 2025 - Present",
+        "designation": "AI Engineer",
+        "company": "K2X Tech | Peshawar, Pakistan",
+        "duration": "Feb 2026 – Present",
         "jobType": "Full-time",
         "companyTitle": "About Role",
-        "companyDescription": "Built ETL pipelines integrating REST APIs, transforming data, and storing it in PostgreSQL.\nDeveloped LLM-powered document autofill and information extraction systems using FastAPI, Mistral.\nBuilt an audio advertisement detection system using audio fingerprinting and timestamp generation.\nDeveloped Python backend services and AI automation workflows to reduce manual effort.\nManaged PostgreSQL databases and optimized queries and schemas.\nDeployed applications with Docker and AWS EC2 using Git and AWS CodeCommit.\n\nTechnologies: Python, FastAPI, PostgreSQL, LangChain, Ollama, Docker, AWS, Git, REST APIs"
+        "companyDescription": "Design and deploy LLM-powered systems for real-world business applications, from prototype to production.\nBuilt SQL-based AI agents that convert natural-language questions into optimised database queries over PostgreSQL.\nDeveloped RAG pipelines using embedding models and vector databases (FAISS, Pinecone) for grounded, context-aware responses.\nIntegrated local and cloud LLMs (Ollama, Groq API) into scalable services, and built voice-enabled assistants with speech-to-text and text-to-speech.\nOrchestrated multi-step AI workflows with LangChain and LangGraph; improved response quality through prompt engineering, evaluation, and logging.\nCollaborate with cross-functional teams to ship and maintain AI solutions in production.\nTechnologies: Python, FastAPI, PostgreSQL, LangChain, LangGraph, Ollama, Docker, AWS, Git"
+      },
+      {
+        "designation": "AI Instructor (Huawei HCCDA-AI)",
+        "company": "Corvit | Peshawar, Pakistan",
+        "duration": "Aug 2026 – Present",
+        "jobType": "Instructor",
+        "companyTitle": "About Role",
+        "companyDescription": "Teach the Huawei HCCDA-AI certification course end to end: Python, data preprocessing (Pandas, NumPy), machine learning, and deep learning.\nCover core ML algorithms, gradient descent, and neural network training and evaluation using Scikit-learn and PyTorch.\nTeach generative AI topics: LLM APIs, RAG architectures, Hugging Face pipelines, diffusion models, prompt chaining, and agentic AI.\nDesign exercises, assessments, and practical assignments to measure learner progress.\nTechnologies: Python, Scikit-learn, PyTorch, Hugging Face, RAG, GenAI, Agentic AI"
       },
       {
         "designation": "AI/ML Intern",
-        "company": "Resolve (NSTP) | Islamabad, PK",
-        "duration": "Jul 2025 - Aug 2025",
+        "company": "K2X Tech | Peshawar, Pakistan",
+        "duration": "Sep 2025 – Feb 2026",
         "jobType": "Internship",
         "companyTitle": "About Role",
-        "companyDescription": "Built SQL-based Question Answering systems using LLMs for structured databases.\nDesigned LangChain-based multi-step SQL agents to automate data retrieval and query generation.\n\nTechnologies: Python, LangChain, MySQL, Flask"
+        "companyDescription": "GeniHunt: Built an automated data pipeline that ingests data from external APIs, parses and cleans XML responses, and loads structured records into PostgreSQL; deployed on AWS EC2 with scheduled daily cron execution.\nEChecker: Developed an LLM-powered document extraction and autofill service (FastAPI, Mistral) that populates SME assessment forms from uploaded documents.\nAd Detection System: Built an audio advertisement detection system using audio fingerprinting with timestamp generation.\nManaged PostgreSQL databases, including schema design and query optimisation.\nContainerised applications with Docker and deployed to AWS EC2 using Git and AWS CodeCommit.\nTechnologies: Python, FastAPI, PostgreSQL, Docker, AWS EC2, CodeCommit, Git, Mistral"
       },
       {
-        "designation": "AI/ML Intern",
-        "company": "Bave Technologies | Peshawar, KP",
-        "duration": "Sep 2024 - Oct 2024",
+        "designation": "AI Engineer",
+        "company": "National Science & Technology Park | Islamabad, Pakistan",
+        "duration": "Jun 2025 – Aug 2025",
+        "jobType": "On-site",
+        "companyTitle": "About Role",
+        "companyDescription": "Built a RAG-powered SQL chatbot that converts natural language to SQL, executes queries, and returns answers, using both a chain-based Q&A system and a LangGraph SQL agent for multi-step reasoning.\nIntegrated open-source LLMs (LLaMA, Mistral via Ollama) with PostgreSQL and MySQL.\nSecured database access with read-only permissions, query validation, and SQL injection prevention.\nContributed to a speaker diarization and transcription proof of concept for real-time audio processing.\nDocumented architecture, workflows, and deployment steps for reproducibility.\nTechnologies: Python, Ollama, LangGraph, PostgreSQL, MySQL, Flask, Streamlit, Whisper"
+      },
+      {
+        "designation": "AI/ML Engineer",
+        "company": "Bave Holdings LLC | Peshawar, Pakistan",
+        "duration": "Oct 2024 – Jan 2025",
+        "jobType": "Contract",
+        "companyTitle": "About Role",
+        "companyDescription": "Built web scraping and API ingestion pipelines (Selenium, BeautifulSoup, Requests) to collect structured data from dynamic websites, using proxy rotation to sustain high success rates.\nCleaned, parsed, and stored extracted data in structured formats, and connected it to LLMs for intelligent parsing and analysis.\nAutomated data collection workflows, reducing manual effort.\nTechnologies: Python, Selenium, BeautifulSoup, Requests, LLMs"
+      },
+      {
+        "designation": "AI/ML Engineer",
+        "company": "FEMCodes | Peshawar, Pakistan",
+        "duration": "Jun 2023 – Jul 2023",
         "jobType": "Internship",
         "companyTitle": "About Role",
-        "companyDescription": "Built robust web scraping pipelines using Selenium, Requests, and BeautifulSoup.\nAutomated data collection workflows and stored cleaned data into CSV files.\n\nTechnologies: Python, Selenium, Requests, BeautifulSoup"
+        "companyDescription": "Built a machine learning Intrusion Detection System that classifies network connections as attack or normal traffic.\nCompleted the full ML workflow: preprocessing, feature engineering, model training, evaluation, and validation.\nTechnologies: Python, Scikit-learn, Machine Learning, Data Preprocessing"
       }
     ]
   },
@@ -232,7 +291,8 @@
     "contactImg": "/images/contact-us.png",
     "contactInfo": [
       { "title": "Email", "email": "imad.works100@gmail.com" },
-      { "title": "Phone", "tel": "+92-345-9198769" }
+      { "title": "Phone", "tel": "+92 345 9198769" },
+      { "title": "Location", "location": "Peshawar, Pakistan" }
     ]
   }
 }
